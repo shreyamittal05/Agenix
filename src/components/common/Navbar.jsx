@@ -21,7 +21,7 @@ export default function Navbar({ theme, onToggleTheme }) {
         <div className="flex items-center gap-10">
           <NavLink to="/" className="flex items-center gap-2.5">
             <span className="grid h-8 w-8 place-items-center rounded-[10px] bg-lime text-[#161712]"><Sparkles size={17} strokeWidth={2.4} /></span>
-            <span className="font-display text-[15px] font-extrabold tracking-tight text-[#f0f0e9]">Agenix<span className="text-lime">.</span></span>
+            <span className="font-display text-[15px] font-extrabold tracking-tight text-[#f0f0e9]">Agenix</span>
           </NavLink>
           <nav className="hidden items-center gap-1 md:flex">
             {navItems.map(({ to, label, icon: Icon, end }) => <NavLink key={label} end={end} to={to} className={({ isActive }) => `flex items-center gap-2 rounded-lg px-3 py-2 text-[13px] font-medium transition ${isActive ? 'bg-white/[.07] text-white' : 'text-[#92938d] hover:text-white'}`}>

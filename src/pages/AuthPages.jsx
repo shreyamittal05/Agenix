@@ -9,7 +9,7 @@ function GoogleIcon() {
 }
 
 function Brand() {
-  return <Link to="/" className="mb-10 inline-flex items-center gap-2.5"><span className="grid h-9 w-9 place-items-center rounded-xl bg-lime text-[#161712]"><Sparkles size={18} /></span><span className="font-display text-[17px] font-extrabold text-white">Agenix<span className="text-lime">.</span></span></Link>
+  return <Link to="/" className="mb-10 inline-flex items-center gap-2.5"><span className="grid h-9 w-9 place-items-center rounded-xl bg-lime text-[#161712]"><Sparkles size={18} /></span><span className="font-display text-[17px] font-extrabold text-white">Agenix</span></Link>
 }
 
 export function AuthPage({ mode }) {
